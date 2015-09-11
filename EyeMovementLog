@@ -1,0 +1,38 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FittsLawEperimentEnvironment
+{
+    class EyeMovementLog
+    {
+
+        private string playerId;
+        private string x;
+        private string y;
+        private long timeStamp;
+
+        public string PlayerId
+        {
+            get { return playerId; }
+            set { this.playerId = value; }
+        }
+        public string X
+        {
+            get { return x; }
+            set { this.x = value; }
+        }
+        public string Y
+        {
+            get { return y; }
+            set { this.y = value; }
+        }
+        public long TimeStamp
+        {
+            get { return timeStamp; }
+            set { this.timeStamp = value; }
+        }
+    }
+}
